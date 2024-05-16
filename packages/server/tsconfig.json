@@ -4,6 +4,7 @@
     "target": "es2019",
     "module": "commonjs",
     "moduleResolution": "node",
+    "experimentalDecorators": true,
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": true,
@@ -18,8 +19,8 @@
     "noUnusedLocals": true,
     "forceConsistentCasingInFileNames": true,
     "importsNotUsedAsValues": "error",
-    "lib": ["es2019", "esnext.asynciterable"],
-    "types": ["node", "jest"],
+    "lib": ["es2019", "esnext.asynciterable", "DOM"],
+    "types": ["node"],
     "baseUrl": ".",
     "paths": {
       "*": ["types/*"]
